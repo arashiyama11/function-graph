@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <table id="all">
+      <td><canvas id="can1" width="500" height="500"></canvas></td>
+      <td>
+        <table>
+          <tr>
+            <td>
+              <center>判定のゆるさ</center>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                id="inpt"
+                type="range"
+                min="1.1"
+                max="20"
+                step="0.001"
+                value="2"
+              />
+            </td>
+          </tr>
+        </table>
+        <p id="value"></p>
+        <p id="zahyo">(0,0)</p>
+
+        <table>
+          <tr>
+            <td>
+              <input id="input2" />
+            </td>
+            <td>
+              <select id="sel0">
+                <option>=</option>
+                <option><</option>
+                <option>></option>
+                <option>≦</option>
+                <option>≧</option>
+              </select>
+            </td>
+            <td>
+              <input id="input4" />
+            </td>
+            <td>
+              <input id="input3" type="submit" />
+            </td>
+          </tr>
+        </table>
+        <input id="input0" />
+        <input id="input1" type="submit" />
+
+        <table border="1">
+          <tr id="rone"></tr>
+          <tr id="rtwe"></tr>
+          <tr id="rthree"></tr>
+        </table>
+      </td>
+    </table>
+    <select id="movement">
+      <option></option>
+    </select>
+    <input id="ch" type="checkbox" />
+    <input id="shokika" type="submit" value="位置初期化" />
+    <script src="script.js"></script>
+  </body>
+</html>
