@@ -1,3 +1,3 @@
 # functionGraph
 # This page is pabliched at here
-https://jinjanow.github.io/functionGraph/
+https://arashi-yama.github.io/functionGraph/
